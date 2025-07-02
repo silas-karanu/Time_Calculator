@@ -40,8 +40,8 @@ def add_time(start, duration, starting_day=None):
     
     # Add days passed if more than 0
     if days_passed == 1:
-        new_time += '(next day)'
+        new_time += ' (next day)'
     elif days_passed > 1:
-        new_time += f'({days_passed} days later)'
+        new_time += f' ({days_passed} days later)'
     
     return new_time
